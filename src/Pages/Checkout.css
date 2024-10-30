@@ -1,0 +1,49 @@
+.checkout-container {
+  padding: 20px;
+  max-width: 600px; /* Set a max width for the container */
+  margin: auto; /* Center the container */
+  background-color: #f9f9f9; /* Light background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+}
+
+.form-group {
+  margin-bottom: 10px; /* Reduced margin for compactness */
+  display: flex;
+  flex-direction: column; /* Align label and input vertically */
+}
+
+.form-group label {
+  margin-bottom: 4px; /* Smaller margin below the label */
+}
+
+.form-group input,
+.form-group select {
+  padding: 6px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px; /* Slightly smaller font size */
+}
+
+.checkout-section {
+  margin-top: 20px;
+}
+
+.place-order-button {
+  padding: 8px 16px; /* Reduced padding for button */
+  background-color: #ff0000; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Slightly larger font size for visibility */
+}
+
+.place-order-button:hover {
+  background-color: #ff0000; /* Darker green on hover */
+}

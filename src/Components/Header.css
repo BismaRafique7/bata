@@ -1,0 +1,78 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the items */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff; /* White background color */
+    color: #ff0000; /* Red text color */
+  }
+  
+  .top-header {
+    color: black;
+    display: flex;
+    justify-content: flex-end; /* Align email to the right */
+    width: 100%; /* Full width */
+
+  }
+  
+  .middle-header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and icons */
+    width: 100%; /* Full width */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .icon-container {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    color: #ff0000; /* Red icon color */
+  }
+  .icon{
+    display: flex;
+    gap: 15px; /* Space between icons */
+    color: #ff0000; /* Red icon color */
+  }
+  
+  .bottom-header {
+    display: flex;
+    justify-content: center; /* Center the links */
+    width: 100%;
+  }
+  
+  .links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Display links in a row */
+    gap: 20px; /* Space between links */
+  }
+  
+  .links a {
+    color: #ff0000; /* Red link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .header-img {
+    margin-top: 10px; /* Add some margin on top */
+    width: 100%; /* Full width */
+    height: 450px; /* Fixed height */
+    overflow: hidden; /* Hide overflow if image exceeds dimensions */
+    
+  }
+  
+  .header-img img {
+    background-size: cover;
+    width: 100%; /* Make the image fill the width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Ensure image does not exceed the height */
+  }
+  
+  
+  .header-logo {
+    max-width: 100px; /* Adjust the logo size */
+  }
+  

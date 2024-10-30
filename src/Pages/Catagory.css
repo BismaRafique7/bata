@@ -1,0 +1,31 @@
+
+.section-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .link-container {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    gap: 15px; /* Space between links */
+    margin-top: 20px;
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block; /* Makes the link cover the entire area */
+  }
+  
+  .link-container a:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: white; /* Text color on hover */
+  }
+  
+  /* Optional styles for Header and Footer */
+  

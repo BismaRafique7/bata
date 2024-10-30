@@ -1,0 +1,61 @@
+.auth-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Keep the background white */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff0000; /* Change heading color to red */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Change label color to dark grey for better visibility */
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000; /* Set button background to red */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #ff0000; /* Set link color to red */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

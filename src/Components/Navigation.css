@@ -1,0 +1,29 @@
+nav {
+    background-color: #ffffff; /* White background */
+    padding: 10px 20px; /* Padding for the nav */
+    border-bottom: 1px solid #ccc; /* Optional: add a light border for separation */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Align items in a row */
+  }
+  
+  li {
+    margin-right: 20px; /* Space between items */
+  }
+  
+  a {
+    color: #333; /* Dark text color for visibility */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  a:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    border-radius: 5px; /* Slight rounding of corners */
+  }
+  
