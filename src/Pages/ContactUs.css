@@ -1,0 +1,81 @@
+.contact-us-section {
+    padding: 60px 30px; /* Increased padding for more space */
+    max-width: 200%; /* Increased width for better readability */
+    margin: 40px auto; /* Center the content with more margin above and below */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.3s ease; /* Transition effect */
+    margin-left: 100px;
+}
+
+.contact-us-section:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.contact-us-section h1 {
+    text-align: center; /* Center-align the heading */
+    color: #e63946; /* Distinctive heading color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.contact-us-section p {
+    text-align: center; /* Center-align the paragraph */
+    color: #555; /* Medium gray color */
+    margin-bottom: 40px; /* More space below paragraph */
+}
+
+.complaint-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px; /* Increased space between elements */
+}
+
+.complaint-form label {
+    font-weight: bold; /* Bold labels for emphasis */
+    color: #333; /* Dark gray color */
+}
+
+.complaint-form input,
+.complaint-form textarea {
+    padding: 12px; /* Increased padding for input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s ease; /* Transition for border color */
+}
+
+.complaint-form input:focus,
+.complaint-form textarea:focus {
+    border-color: #e63946; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.submit-button {
+    padding: 12px 20px; /* Increased button padding */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    /* transition: background-color 0.3s ease; Transition effect */
+    align-self: flex-end; /* Align the button to the end of the form */
+     position:absolute;
+    margin-top: 300px; 
+    margin-right: 360px;
+} */
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional: Add some responsive design */
+@media (max-width: 600px) {
+    .contact-us-section {
+        padding: 30px 15px; /* Reduce padding on smaller screens */
+    }
+
+    .complaint-form input,
+    .complaint-form textarea {
+        font-size: 1rem; /* Increase font size for better readability */
+    }
+}

@@ -1,0 +1,98 @@
+.about-us-section {
+    padding: 40px 20px;
+    background-color: #f8f8f8; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.about-header {
+    text-align: center; /* Center-align header content */
+    margin-bottom: 30px; /* Space below header */
+}
+
+.intro-text {
+    font-size: 1.2rem; /* Introductory text size */
+    color: #666; /* Medium gray color */
+    margin-bottom: 20px; /* Space below intro text */
+}
+
+.about-header h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem; /* Large font size for title */
+    color: #333; /* Dark gray color */
+}
+
+.information-div {
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding for the information div */
+    margin-bottom: 30px; /* Space below the info section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.information-div h2 {
+    text-align: center; /* Center-align section heading */
+    color: #e63946; /* A distinctive color for the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.info-items {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    gap: 20px; /* Space between items */
+}
+
+.info-item {
+    flex: 1; /* Allow items to grow */
+    text-align: center; /* Center-align text */
+    padding: 15px; /* Padding for each info item */
+    border: 1px solid #e0e0e0; /* Border for each item */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f0f0f0; /* Light background for items */
+}
+
+.about-content {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center the content */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+.about-content h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem; /* Subheading size */
+    color: #e63946; /* A distinctive color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    border-bottom: 2px solid #e63946; /* Underline for emphasis */
+    padding-bottom: 10px; /* Space below underline */
+}
+
+.about-content p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem; /* Standard paragraph font size */
+    color: #555; /* Medium gray for text */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+.about-content ul {
+    list-style-type: none; /* No bullets */
+    padding-left: 0; /* No indentation */
+}
+
+.about-content li {
+    margin-bottom: 10px; /* Space between list items */
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem; /* Font size for list items */
+    color: #555; /* Medium gray for text */
+}
+
+.about-content li i {
+    color: #e63946; /* Icon color */
+    margin-right: 10px; /* Space between icon and text */
+}
+.img{
+    height: 800px;
+    width: 100%;
+}
+/* .logo{
+    width: 100px;
+} */
